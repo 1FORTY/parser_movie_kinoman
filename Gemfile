@@ -6,5 +6,6 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 gem "nokogiri"
 gem "open-uri"
+gem 'mechanize'
 gem "byebug"
-require 'json'
+gem 'json'
